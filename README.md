@@ -9,11 +9,12 @@ A postfix expression can be evaluated using an easy to implement algorithm which
 ### Pseudocode:
 ```
 Read token-
-If token is an operand, push it onto the stack.
+If token is an operand,
+    push it onto the stack.
 If token is an operator,
-Pop 2 elements from the stack,
-Use them as operands for the operator,
-Push back the result onto the stack
+    Pop 2 elements from the stack,
+    Use them as operands for the operator,
+    Push back the result onto the stack
 ```
 ## Design Choices:
 
